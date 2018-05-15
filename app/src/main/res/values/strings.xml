@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Qrprayatna</string>
+    <string name="title_activity_initial">Initial</string>
+    <string name="title_activity_event">eventActivity</string>
+</resources>

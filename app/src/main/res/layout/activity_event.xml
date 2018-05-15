@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vikikkdi.qrprayatna.eventActivity">
+
+    <include layout="@layout/content_initial"
+        android:id="@+id/include" />
+
+    <ListView
+        android:id="@+id/event_list"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="finalist"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|left" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:text="winners"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center_vertical|right" />
+
+</android.support.design.widget.CoordinatorLayout>
